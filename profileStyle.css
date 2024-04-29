@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  background-color: #23283e;
+  max-width: 1100px;
+  width: 95%;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+  color: #bdbddd;
+}
+
+img {
+  width: 200px;
+  border: 5px solid #69c7c7;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: #bdbddd;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: #23283e;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.178);
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+}
+
+a:hover {
+  color: #69c7c7;
+  font-size: 18px;
+}
+
+.heading {
+  color: #69c7c7;
+}
+
+.profile-section {
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  width: 100%;
+  padding-top: 5%;
+}
+
+.about-text {
+}
+
+.projects {
+  padding-top: 5%;
+}
+
+.skills-container {
+  padding-top: 5%;
+}
+
+td {
+  color: #bdbddd;
+}
+
+.table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.news-container {
+  padding-top: 5%;
+}
+
+footer {
+  padding-top: 30px;
+}
+
+.button:hover {
+  background-color: #69c7c7;
+}
